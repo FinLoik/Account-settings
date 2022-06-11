@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/animal-vivid-volume-3/256/Whale-256.png">
+</head>
+<body>
+    <!-- Account  -->
+    <h1>Account settings</h1>
+
+    <div class="main-container">
+        <div class="photo-container">
+            <img src="https://cdn0.iconfinder.com/data/icons/pet-25/128/_animal_cat_dog_nature_pet-43-132.png" alt="">
+        </div>
+        <div class="name-container">
+            <h2 id="nickname">UC MAXWELL</h2> 
+            <div class="inv-nick">
+                <input type="text" placeholder="Nickname" id="newNick">
+                <button id="nNickBtn">Done</button>
+            </div>
+            <p id="job">UI/UX Designer & Developer</p>
+            <div class="inv-job">
+                <input type="text" placeholder="Job" id="newJob">
+                <button id="nJobBtn">Done</button>
+            </div>
+            <p class="pID">Unical ID: <span id="unicID">0001</span></p>
+        </div>
+        <div class="lorem-container">
+            <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde mollitia dolor est porro at corporis minima, iste molestias odit culpa.</p>
+        </div>
+        <div class="inv-lorem">
+            <input type="text" placeholder="Info about you" id="newLorem">
+            <button id="nLoremBtn">Done</button>
+        </div>
+        <div class="info-container">
+            <p>Favorite colour: <span id="colour">#ffffff</span></p>
+            <div class="inv-colour">
+                <input type="color" placeholder="Info about you" id="newColour">
+                <button id="nColourBtn">Done</button>
+            </div>
+            <p id="teamP">Favorite team: <span id="team">Gladiev MSKS</span></p>
+            <div class="inv-team">
+                <input type="text" placeholder="Boston" id="newTeam">
+                <button id="nTeamBtn">Done</button>
+            </div>
+            <p >Birth date: <span id="birth">11.06.2022</span></p>
+            <div class="inv-birth">
+                <input type="date" placeholder="date" id="newBirth">
+                <button id="nDateBtn">Done</button>
+            </div>
+            <p >Password: <span id="password">私は愛することを愛する</span></p>
+            <div class="inv-password">
+                <input type="password" placeholder="STRONG PASSWORD" id="newPassword">
+                <button id="nPasswordBtn">Done</button>
+            </div>
+        </div>
+        
+        <p class="end"><a href="https://www.youtube.com/watch?v=hRZBxjVpGLw">Social Network</a></p>
+    </div>
+    <button id="toChange">Change values</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
